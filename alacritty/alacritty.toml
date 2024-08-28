@@ -1,0 +1,33 @@
+import = [
+    "~/.config/alacritty/themes/themes/solarized_osaka.toml"
+]
+
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 5, y = 9 }
+decorations = "Buttonless"
+opacity = 0.8
+blur = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+size = 14
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+thickness = 0.1
+
+[keyboard]
+bindings = [
+  { key = 'N', mods = 'Control|Shift', action = 'CreateNewWindow' },
+  { key = 'C', mods = 'Control|Shift', action = 'Copy' },
+  { key = 'V', mods = 'Control|Shift', action = 'Paste' },
+  { key = '+', mods = 'Control', action = 'IncreaseFontSize' },
+  { key = '-', mods = 'Control', action = 'DecreaseFontSize' },
+  { key = '0', mods = 'Control', action = 'ResetFontSize' },
+  { key = 'd', mods = 'Control', action = 'Quit' }
+]
