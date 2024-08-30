@@ -9,7 +9,5 @@
 
 # Conf files
 !/alacritty
-alacritty/themes
 !/nvim
 !/tmux
-tmux/plugins
