@@ -8,6 +8,5 @@
 **/.DS_Store
 
 # Conf files
-!/alacritty
+!/ghostty
 !/nvim
-!/tmux

@@ -1,0 +1,32 @@
+font-family = Monaspace Neon Var
+font-style = Bold
+font-size = 13
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+theme = GitHub Dark
+
+mouse-hide-while-typing = true
+
+macos-titlebar-style = transparent
+window-colorspace = display-p3
+window-padding-x = 5
+window-padding-y = 10,5
+
+confirm-close-surface = false
+
+keybind = ctrl+a>n=next_tab
+keybind = ctrl+a>p=previous_tab
+
+keybind = ctrl+a>x=close_surface
+
+keybind = ctrl+a>i=new_split:right
+keybind = ctrl+a>-=new_split:down
+
+keybind = ctrl+i=goto_split:top
+keybind = ctrl+j=goto_split:left
+keybind = ctrl+k=goto_split:bottom
+keybind = ctrl+l=goto_split:right
+
+copy-on-select = clipboard
